@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home - My Portfolio</title>
   <style>
+    /* Your existing CSS styles here */
     /* Reset styles */
     * {
       box-sizing: border-box;
@@ -94,6 +95,12 @@
     footer p {
       font-size: 14px;
     }
+    .video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center; /* Center vertically */
+      flex-direction: column; /* Align items in a column */
+    }
   </style>
 </head>
 <body>
@@ -113,6 +120,14 @@
     <h2>Welcome to My Portfolio</h2>
     <p>Welcome to my portfolio! Here, you'll discover a curated collection of my creative endeavors and professional accomplishments. Dive into a fusion of my passion for design, innovation, and storytelling. Explore how I blend artistry with functionality to craft captivating user experiences. Whether you're seeking insights into my design process, browsing my latest projects, or looking to collaborate, I invite you to embark on this journey through my digital playground.</p>
   </div>
+</div>
+
+<div class="video-container">
+  <h2>Watch here if you want to relax</h2>
+  <video controls width="600" height="400">
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 <footer>
